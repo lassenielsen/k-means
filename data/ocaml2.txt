@@ -1,0 +1,12 @@
+(* can use \n *)
+print_string "Once\n upon a time";;
+
+(* can have lineral linebreak *)
+print_string "aa
+bb\n";;
+
+(* con contain Unicode *)
+print_string "∑ α ≥ ≠ ♥\n";;
+
+(* join strings. Use ^ *)
+print_string ("a" ^ "b" ^ "c");;

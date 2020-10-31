@@ -1,0 +1,10 @@
+(* here's a function of 2 parameters *)
+let f x y = x + y;;
+
+(* function call *)
+f 3 4;;                         (* ⇒ 7 *)
+
+(* do not put paren in function argument *)
+
+(* it's ok to put paren to group the whole function call *)
+(f 3 4);;                       (* ⇒ 7 *)

@@ -1,0 +1,7 @@
+(* example of printing different types of values *)
+
+print_int (3 + 4);; (* integer *)
+print_string "\n";;
+
+print_float (2. +. 7.);; (* float. *)
+(* The “+.” is for adding number of float type *)
